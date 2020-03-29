@@ -1,0 +1,73 @@
+#menu {
+    position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    width: 100%;
+  background-color: #333;
+}
+
+li {
+  float: left;
+    border-right: 1px solid #bbb;
+}
+li:last-child{
+    float: right;
+    border-left: 1px solid #bbb;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+h1{
+    text-align: center;
+}
+.section {
+  text-align: center;
+  padding: 20px blue;
+    border: 30px black;
+}
+.footer {
+    color: red;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.formInput{
+        padding: 12px 20px;
+        box-sizing: border-box;
+    color: red;
+    background-color: white;
+  transition: width 0.4s ease-in-out;
+}
+.formInput:focus{
+     border: 3px solid #555;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+body{
+    background-image: url("treebackground.jfif");
+}
+input[type=text], textarea {
+                width: 450px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid darkred; 
+                color: darkred;
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 2px;
+                margin-top: 2px;
+                resize: both;
+            }
