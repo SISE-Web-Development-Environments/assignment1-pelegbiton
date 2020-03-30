@@ -43,11 +43,13 @@ h1{
   padding: 10px;
 }
 p{
+  color: brown;
     font-size: 20px;
     font-weight: bold;
 }
+
 body{
-    background-image: url("treebackground.jfif");
+    background-image: url("wp2.jfif");
     background-size: cover;
     background-repeat: no-repeat;
 }
