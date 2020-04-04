@@ -53,10 +53,8 @@ p{
     text-align: right;
 }
 body{
-    background-image: url("wp2.jfif");
+    background-image: url("woodsbackground.jfif");
     background-color: burlywood;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
